@@ -5319,6 +5319,40 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "App"
 });
@@ -28150,9 +28184,118 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("\n    test\n")])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("main", { staticClass: "overflow-hidden" }, [
+      _c("section", { staticClass: "login-page pt-120 pb-120" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row justify-content-center" }, [
+            _c(
+              "div",
+              {
+                staticClass: "col-xl-6 col-lg-8 col-md-9 wow fadeInUp animated",
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "login-register-form",
+                    staticStyle: {
+                      "background-image":
+                        "url('assets/images/inner-pages/login-bg.png')",
+                    },
+                  },
+                  [
+                    _c("div", { staticClass: "top-title text-center" }, [
+                      _c("h2", [_vm._v("Register")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v("Already have an account? "),
+                        _c("a", { attrs: { href: "login.html" } }, [
+                          _vm._v("Log in"),
+                        ]),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("form", { staticClass: "common-form" }, [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: { type: "text", placeholder: "Your Name" },
+                        }),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: { type: "text", placeholder: "Username" },
+                        }),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: { type: "email", placeholder: "Your Email" },
+                        }),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group eye" }, [
+                        _c("div", { staticClass: "icon icon-1" }, [
+                          _c("i", { staticClass: "flaticon-hidden" }),
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "password",
+                            id: "password-field",
+                            placeholder: "Password",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "icon icon-2" }, [
+                          _c("i", { staticClass: "flaticon-visibility" }),
+                        ]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "checkk" }, [
+                        _c("div", { staticClass: "form-check p-0 m-0" }, [
+                          _c("input", {
+                            attrs: { type: "checkbox", id: "remember" },
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "label",
+                            { staticClass: "p-0", attrs: { for: "remember" } },
+                            [_vm._v(" Accept the Terms and Privacy Policy ")]
+                          ),
+                        ]),
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn--primary style2",
+                          attrs: { type: "submit" },
+                        },
+                        [_vm._v("Register ")]
+                      ),
+                    ]),
+                  ]
+                ),
+              ]
+            ),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+]
 render._withStripped = true
 
 
